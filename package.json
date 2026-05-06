@@ -1,0 +1,31 @@
+{
+  "name": "sujaforge-cli",
+  "version": "1.0.0",
+  "description": "🤖 SujaForge — An AI-powered conversational CLI agent that builds websites through intelligent multi-step reasoning",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "cli",
+    "generative-ai",
+    "web-cloning",
+    "conversational-ai"
+  ],
+  "author": "Suja Rahaman",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^16.4.7",
+    "gradient-string": "^3.0.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.78.0",
+    "ora": "^8.1.1"
+  }
+}
