@@ -1,14 +1,1 @@
-* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
-body { background-color: #f8fafc; color: #0f172a; }
-.top-banner { background: #2563eb; color: white; padding: 10px; text-align: center; font-size: 0.85rem; }
-header { background: white; padding: 20px 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 1000; }
-.logo { font-weight: 800; color: #0052cc; font-size: 1.5rem; }
-nav a { margin-left: 20px; text-decoration: none; color: #475569; font-weight: 500; }
-.cta-btn { background: #2563eb; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; transition: transform 0.2s; }
-.cta-btn:hover { transform: translateY(-2px); }
-.hero { background: linear-gradient(135deg, #e0f2fe, #ffffff); padding: 80px 5%; display: flex; align-items: center; gap: 40px; }
-.hero-content { flex: 1; }
-.hero-form { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 350px; }
-.card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 50px 5%; }
-.card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); text-align: center; }
-footer { background: #0f172a; color: white; padding: 40px 5%; text-align: center; }
+:root { --primary: #2563eb; --bg: #ffffff; --alt-bg: #f8fafc; --text: #0f172a; --text-muted: #475569; --dark: #0f172a; } * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; } body { background-color: var(--bg); color: var(--text); line-height: 1.6; } .top-banner { background: var(--primary); color: white; text-align: center; padding: 10px; font-size: 0.9rem; } header { background: white; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 1000; } .logo { font-weight: 800; color: var(--primary); font-size: 1.5rem; } nav a { margin-left: 20px; text-decoration: none; color: var(--text-muted); font-weight: 500; } .btn { background: var(--primary); color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; transition: transform 0.2s; } .btn:hover { transform: translateY(-2px); } .hero { background: linear-gradient(135deg, #e0f2fe, #ffffff); padding: 80px 5%; display: flex; align-items: center; justify-content: space-between; } .hero-content { max-width: 50%; } .hero-form { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 350px; } .highlights { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 50px 5%; } .card { padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); background: white; border: 1px solid #e2e8f0; transition: transform 0.2s; } .card:hover { transform: translateY(-5px); } footer { background: var(--dark); color: white; padding: 50px 5%; text-align: center; }
